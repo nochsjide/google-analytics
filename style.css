@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.red{
+    padding: 10px;
+    background-color: white;
+}
+
+.blue{
+    padding: 40px;
+    background-color: rgb(243, 136, 48);
+    color: white;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    justify-content:center;
+    gap: px;
+    color: antiquewhite;
+    background-color: blue;
+    border: 1px;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+}
+a{
+    color: aliceblue;
+
+}
+.bg-image{
+    background-image: url(/image/hero_academy.jpg);
+    position: relative;
+    bottom: -50px;
+    height: 350px;
+    width: 700px;
+}
+.green{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  px;
+    padding: 0px 0px 400px 30px ;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.p1{
+    font-size: 28px;
+}
+p{
+    font-size: 20px;
+}
+.greenpara{
+    padding: 130px 0px;
+}
+.fouth{
+    background-color: blue;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 20px;
+}
+
+.card{
+    background-color: white;
+    height: 300px;
+    padding: 10px;
+    justify-content: center;
+}
+
+/* .meet{
+    background-color: rgb(190, 190, 190);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+} */
+
+
+.fifth{
+    background-color: rgba(255, 255, 255, 0.068) ;
+    padding: 30px;
+    display: flex;
+    box-shadow: 10px solid black;
+border-color: black;
+}
+
+.fiftwo{
+    padding: 1px 30px opx 130px;
+    background-color: rgba(255, 255, 255, 0.253);
+    
+}
+
+.pic{
+    display: flex;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 30px 60px 400px 700px ;
+}
+
